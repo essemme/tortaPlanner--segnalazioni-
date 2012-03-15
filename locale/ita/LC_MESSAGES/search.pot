@@ -1,0 +1,19 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: search\n"
+"POT-Creation-Date: 2011-01-28 11:17+0100\n"
+"PO-Revision-Date: 2011-01-28 15:40+0100\n"
+"Last-Translator: Stefano Manfredini <info@stefanomanfredini.info>\n"
+"Language-Team: ita <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: italian\n"
+
+#: \plugins\search\controllers\components\prg.php:232
+msgid "Please correct the errors below."
+msgstr "Verificare gli errori sottostanti"
+

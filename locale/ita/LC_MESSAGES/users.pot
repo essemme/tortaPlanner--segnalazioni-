@@ -1,0 +1,769 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: users plugin\n"
+"POT-Creation-Date: 2011-02-02 16:02+0100\n"
+"PO-Revision-Date: 2011-03-01 12:09+0100\n"
+"Last-Translator: Stefano Manfredini <info@stefanomanfredini.info>\n"
+"Language-Team: ita\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: \plugins\users\controllers\details_controller.php:57;145
+msgid "Invalid Detail."
+msgstr "Dettaglio non valido"
+
+#: \plugins\users\controllers\details_controller.php:79
+msgid "Saved"
+msgstr "Salvato"
+
+#: \plugins\users\controllers\details_controller.php:100
+msgid "%s details saved"
+msgstr "dettaglio  %s salvato"
+
+#: \plugins\users\controllers\details_controller.php:118;206
+msgid "Invalid id for Detail"
+msgstr "Id non valido"
+
+#: \plugins\users\controllers\details_controller.php:122;210
+msgid "Detail deleted"
+msgstr "Dettaglio eliminato"
+
+#: \plugins\users\controllers\details_controller.php:160;184
+msgid "The Detail has been saved"
+msgstr "Dettaglio salvato"
+
+#: \plugins\users\controllers\details_controller.php:163;187
+msgid "The Detail could not be saved. Please, try again."
+msgstr "Il Dettaglio non è stato salvato, riprovare"
+
+#: \plugins\users\controllers\details_controller.php:179
+msgid "Invalid Detail"
+msgstr "Dettaglio non valido"
+
+#: \plugins\users\controllers\users_controller.php:78
+msgid "You are already logged in."
+msgstr "Sei già autenticato"
+
+#: \plugins\users\controllers\users_controller.php:161
+msgid "Profile saved."
+msgstr "Profilo salvato"
+
+#: \plugins\users\controllers\users_controller.php:163
+msgid "Could not save your profile."
+msgstr "Non è stato possibile salavare il profilo"
+
+#: \plugins\users\controllers\users_controller.php:197;250
+msgid "Invalid User."
+msgstr "Utente non valido"
+
+#: \plugins\users\controllers\users_controller.php:210;225
+msgid "User saved."
+msgstr "Utente salvato"
+
+#: \plugins\users\controllers\users_controller.php:248
+msgid "User deleted."
+msgstr "Utente eliminato"
+
+#: \plugins\users\controllers\users_controller.php:272
+msgid "You are already registered and logged in."
+msgstr "Sei già registrato ed autenticato."
+
+#: \plugins\users\controllers\users_controller.php:281
+#: \plugins\users\tests\cases\controllers\users_controller.test.php:185
+msgid "Your account has been created. You should receive an e-mail shortly to authenticate your account. Once validated you will be able to login."
+msgstr "Profilo creato - Dovresti ricevere una email a breve contente un collegamento per attivare il profilo. Una volta convalidato, potrai entrare con le credenziali scelte."
+
+#: \plugins\users\controllers\users_controller.php:286
+#: \plugins\users\tests\cases\controllers\users_controller.test.php:196
+msgid "Your account could not be created. Please, try again."
+msgstr "Profilo non creato, riprovare"
+
+#: \plugins\users\controllers\users_controller.php:369
+msgid "%s, you have successfully logged out."
+msgstr "%s, sei uscito correttamente."
+
+#: \plugins\users\controllers\users_controller.php:385
+msgid "The url you have accessed is no longer valid."
+msgstr "L'indirizzo a cui si tentava di accedere non è più valido (tempo della richiesta scaduto)"
+
+#: \plugins\users\controllers\users_controller.php:390
+#: \plugins\users\tests\cases\controllers\users_controller.test.php:212
+msgid "The url you have accessed is no longer valid"
+msgstr "L'indirizzo a cui si tentava di accedere non è più valido"
+
+#: \plugins\users\controllers\users_controller.php:411;519
+msgid "Password Reset"
+msgstr "Reimposta la password"
+
+#: \plugins\users\controllers\users_controller.php:413
+msgid "Your password has been reset."
+msgstr "Password rempostata"
+
+#: \plugins\users\controllers\users_controller.php:414
+msgid "Please login using this password and change your password."
+msgstr "Autenticarsi usando questa password, quindi modificare la propria pasword per gli usi futuri"
+
+#: \plugins\users\controllers\users_controller.php:417
+msgid "Your password has been sent to your registered email address."
+msgstr "Password inviata all'indirizzo email utilizzato per la registrazione"
+
+#: \plugins\users\controllers\users_controller.php:422
+#: \plugins\users\tests\cases\controllers\users_controller.test.php:208
+msgid "Your e-mail has been validated. You may now login."
+msgstr "indirizzo email convalidato, puoi effettuare l'autenticazione"
+
+#: \plugins\users\controllers\users_controller.php:427
+msgid "There was an error verifying your account. Please check the email you were sent, and retry the verification link."
+msgstr "C'è stato un errore nella verifica del profilo - verificare l'email ricevuta, e rirprovare"
+
+#: \plugins\users\controllers\users_controller.php:440
+msgid "Your password was successfully changed."
+msgstr "Password modificata con successo"
+
+#: \plugins\users\controllers\users_controller.php:495
+msgid "Account verification"
+msgstr "Verififca profilo"
+
+#: \plugins\users\controllers\users_controller.php:536
+msgid "%s has been sent an email with instructions to reset their password."
+msgstr "Inviata una email con le istruzioni per reimpostare la password a %s"
+
+#: \plugins\users\controllers\users_controller.php:540
+msgid "Password reset requested. Please check your email for further instructions."
+msgstr "Richeista di cambio password effettuata. Controllare l'email per istruzioni"
+
+#: \plugins\users\controllers\users_controller.php:544
+msgid "No user was found with that email."
+msgstr "Email non trovata tra gli utenti del sito."
+
+#: \plugins\users\controllers\users_controller.php:560
+msgid "Invalid password reset token, please try again."
+msgstr "Ticket per il ripristino della password errato, riprovare"
+
+#: \plugins\users\controllers\users_controller.php:566
+msgid "Password changed, you can now login with your new password."
+msgstr "Password modificata, puoi autenticarti utilizzando quella nuova."
+
+#: \plugins\users\controllers\components\users_auth.php:95
+msgid "Sorry, but you need to login to access this location."
+msgstr "Spiacente, ocorre autenticarsi per accedere a questa sezione"
+
+#: \plugins\users\controllers\components\users_auth.php:96
+#: \plugins\users\tests\cases\controllers\users_controller.test.php:166
+msgid "Invalid e-mail / password combination. Please try again"
+msgstr "Combinazione meail / password errata. Riprovare"
+
+#: \plugins\users\controllers\components\users_auth.php:129
+msgid "%s, you have successfully logged in."
+msgstr "%s autenticato correttamente."
+
+#: \plugins\users\models\user.php:99
+msgid "Please enter a username"
+msgstr "Inserire un nome utente"
+
+#: \plugins\users\models\user.php:105
+msgid "This username is already in use."
+msgstr "Nome utente già in uso. Sceglierne un altro "
+
+#: \plugins\users\models\user.php:108
+msgid "The username must have at least 3 characters."
+msgstr "Il nome utente deve essere composto da almeno 3 caratteri"
+
+#: \plugins\users\models\user.php:113
+msgid "Please enter a valid email address."
+msgstr "Inserire un indirizzo email valido"
+
+#: \plugins\users\models\user.php:116
+msgid "This email is already in use."
+msgstr "indirizzo email già utilizzato."
+
+#: \plugins\users\models\user.php:120
+msgid "The password must have at least 8 characters."
+msgstr "La password deve avere almeno 8 caratteri"
+
+#: \plugins\users\models\user.php:123
+msgid "Please enter a password."
+msgstr "Inserire una password"
+
+#: \plugins\users\models\user.php:126
+msgid "The passwords are not equal, please try again."
+msgstr "Le password digitate non coincidono, rirprovare"
+
+#: \plugins\users\models\user.php:129
+msgid "You must agree to the terms of use."
+msgstr "Devi accettare i termini di utilizzo"
+
+#: \plugins\users\models\user.php:134;328
+msgid "The passwords are not equal."
+msgstr "Le password non coincidono"
+
+#: \plugins\users\models\user.php:136
+msgid "Invalid password."
+msgstr "Password non valida."
+
+#: \plugins\users\models\user.php:147
+msgid "Invalid date"
+msgstr "Data non valida"
+
+#: \plugins\users\models\user.php:288
+msgid "This Email Address exists but was never validated."
+msgstr "Indirizzo email presente, ma non è mai stato convalidato"
+
+#: \plugins\users\models\user.php:290
+msgid "This Email Address does not exist in the system."
+msgstr "L'indirizzo email indicato non è presente nel sistema"
+
+#: \plugins\users\models\user.php:375
+msgid "$this->data['"
+msgstr ""
+
+#: \plugins\users\models\user.php:423
+msgid "The user does not exist."
+msgstr "Utente non trovato"
+
+#: \plugins\users\models\user.php:465
+msgid "Please enter your email address."
+msgstr "Inseirrie l'indirizzo email"
+
+#: \plugins\users\models\user.php:475
+msgid "The email address does not exist in the system"
+msgstr "Indirizzo email non presente"
+
+#: \plugins\users\models\user.php:480
+msgid "Your account is already authenticaed."
+msgstr "Profilo già verificato"
+
+#: \plugins\users\models\user.php:485
+msgid "Your account is disabled."
+msgstr "Profilo utente disabilitato."
+
+#: \plugins\users\models\user.php:657
+msgid "Invalid User"
+msgstr "Utente non valido"
+
+#: \plugins\users\tests\cases\controllers\users_controller.test.php:160
+msgid "testuser, you have successfully logged in."
+msgstr ""
+
+#: \plugins\users\tests\cases\controllers\users_controller.test.php:224
+msgid "floriank, you have successfully logged out."
+msgstr ""
+
+#: \plugins\users\views\details\add.ctp:15
+#: \plugins\users\views\details\admin_add.ctp:15
+msgid "Add Detail"
+msgstr ""
+
+#: \plugins\users\views\details\add.ctp:28
+#: \plugins\users\views\details\admin_add.ctp:28
+#: \plugins\users\views\details\admin_edit.ctp:30
+#: \plugins\users\views\details\admin_view.ctp:56
+#: \plugins\users\views\details\view.ctp:56
+msgid "List Details"
+msgstr ""
+
+#: \plugins\users\views\details\add.ctp:29
+#: \plugins\users\views\details\admin_add.ctp:29
+#: \plugins\users\views\details\admin_edit.ctp:31
+#: \plugins\users\views\details\admin_index.ctp:78
+#: \plugins\users\views\details\admin_view.ctp:58
+#: \plugins\users\views\details\view.ctp:58
+#: \plugins\users\views\users\add.ctp:48
+#: \plugins\users\views\users\admin_add.ctp:24
+#: \plugins\users\views\users\admin_edit.ctp:26
+#: \plugins\users\views\users\admin_view.ctp:36
+#: \plugins\users\views\users\openid_add.ctp:68
+msgid "List Users"
+msgstr ""
+
+#: \plugins\users\views\details\add.ctp:30
+#: \plugins\users\views\details\admin_add.ctp:30
+#: \plugins\users\views\details\admin_edit.ctp:32
+#: \plugins\users\views\details\admin_index.ctp:79
+#: \plugins\users\views\details\admin_view.ctp:59
+#: \plugins\users\views\details\view.ctp:59
+#: \plugins\users\views\users\admin_view.ctp:37
+#: \plugins\users\views\users\index.ctp:57
+#: \plugins\users\views\users\login.ctp:32
+#: \views\users\index.ctp:72
+msgid "New User"
+msgstr "Registrazione nuovo utente"
+
+#: \plugins\users\views\details\add.ctp:31
+#: \plugins\users\views\details\admin_add.ctp:31
+#: \plugins\users\views\details\admin_edit.ctp:33
+#: \plugins\users\views\details\admin_index.ctp:80
+#: \plugins\users\views\details\admin_view.ctp:60
+#: \plugins\users\views\details\view.ctp:60
+msgid "List Groups"
+msgstr ""
+
+#: \plugins\users\views\details\add.ctp:32
+#: \plugins\users\views\details\admin_add.ctp:32
+#: \plugins\users\views\details\admin_edit.ctp:34
+#: \plugins\users\views\details\admin_index.ctp:81
+#: \plugins\users\views\details\admin_view.ctp:61;106
+#: \plugins\users\views\details\view.ctp:61;106
+msgid "New Group"
+msgstr ""
+
+#: \plugins\users\views\details\admin_edit.ctp:15
+#: \plugins\users\views\details\admin_view.ctp:54
+#: \plugins\users\views\details\edit.ctp:16
+#: \plugins\users\views\details\view.ctp:54
+msgid "Edit Detail"
+msgstr ""
+
+#: \plugins\users\views\details\admin_edit.ctp:29
+#: \plugins\users\views\details\admin_index.ctp:64
+#: \plugins\users\views\details\admin_view.ctp:97
+#: \plugins\users\views\details\view.ctp:97
+#: \plugins\users\views\users\admin_edit.ctp:25
+#: \plugins\users\views\users\admin_index.ctp:58
+#: \plugins\users\views\users\groups.ctp:49
+#: \plugins\users\views\users\index.ctp:44
+#: \views\users\index.ctp:59
+msgid "Delete"
+msgstr "Elimina"
+
+#: \plugins\users\views\details\admin_edit.ctp:29
+#: \plugins\users\views\details\admin_index.ctp:64
+#: \plugins\users\views\details\admin_view.ctp:55;97
+#: \plugins\users\views\details\view.ctp:55;97
+#: \plugins\users\views\users\admin_edit.ctp:25
+#: \plugins\users\views\users\admin_index.ctp:58
+#: \plugins\users\views\users\admin_view.ctp:35
+#: \plugins\users\views\users\index.ctp:44
+#: \views\users\index.ctp:59
+msgid "Are you sure you want to delete # %s?"
+msgstr "Sicuro di voler eliminare l'elemento n. %s"
+
+#: \plugins\users\views\details\admin_index.ctp:13
+#: \plugins\users\views\users\register.ctp:15
+msgid "Details"
+msgstr ""
+
+#: \plugins\users\views\details\admin_index.ctp:17
+#: \plugins\users\views\users\index.ctp:17
+msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
+msgstr ""
+
+#: \plugins\users\views\details\admin_index.ctp:29
+#: \plugins\users\views\details\admin_view.ctp:76
+#: \plugins\users\views\details\view.ctp:76
+#: \plugins\users\views\users\admin_index.ctp:32
+#: \plugins\users\views\users\dashboard.ctp:21
+#: \plugins\users\views\users\groups.ctp:26;61
+#: \plugins\users\views\users\index.ctp:24
+#: \views\users\index.ctp:27
+msgid "Actions"
+msgstr "Azioni"
+
+#: \plugins\users\views\details\admin_index.ctp:62
+#: \plugins\users\views\details\admin_view.ctp:95
+#: \plugins\users\views\details\view.ctp:95
+#: \plugins\users\views\users\admin_index.ctp:56
+#: \plugins\users\views\users\index.ctp:42
+#: \views\users\index.ctp:57
+msgid "View"
+msgstr "Esamina"
+
+#: \plugins\users\views\details\admin_index.ctp:63
+#: \plugins\users\views\details\admin_view.ctp:96
+#: \plugins\users\views\details\view.ctp:96
+#: \plugins\users\views\users\admin_index.ctp:57
+#: \plugins\users\views\users\groups.ctp:44
+#: \plugins\users\views\users\index.ctp:43
+#: \views\users\index.ctp:58
+msgid "Edit"
+msgstr "Modifica"
+
+#: \plugins\users\views\details\admin_index.ctp:71
+#: \plugins\users\views\users\index.ctp:51
+msgid "previous"
+msgstr "precedente"
+
+#: \plugins\users\views\details\admin_index.ctp:73
+#: \plugins\users\views\users\index.ctp:53
+msgid "next"
+msgstr "seguente"
+
+#: \plugins\users\views\details\admin_index.ctp:77
+#: \plugins\users\views\details\admin_view.ctp:57
+#: \plugins\users\views\details\view.ctp:57
+msgid "New Detail"
+msgstr "Nuovo dettaglio"
+
+#: \plugins\users\views\details\admin_view.ctp:13
+#: \plugins\users\views\details\view.ctp:13
+msgid "Detail"
+msgstr ""
+
+#: \plugins\users\views\details\admin_view.ctp:15;69
+#: \plugins\users\views\details\view.ctp:15;69
+msgid "Id"
+msgstr ""
+
+#: \plugins\users\views\details\admin_view.ctp:20
+#: \plugins\users\views\details\view.ctp:20
+#: \plugins\users\views\users\admin_view.ctp:13
+#: \plugins\users\views\users\view.ctp:13
+#: \views\users\view.ctp:14
+msgid "User"
+msgstr ""
+
+#: \plugins\users\views\details\admin_view.ctp:25
+#: \plugins\users\views\details\view.ctp:25
+msgid "Position"
+msgstr ""
+
+#: \plugins\users\views\details\admin_view.ctp:30
+#: \plugins\users\views\details\view.ctp:30
+msgid "Field"
+msgstr ""
+
+#: \plugins\users\views\details\admin_view.ctp:35
+#: \plugins\users\views\details\view.ctp:35
+msgid "Value"
+msgstr ""
+
+#: \plugins\users\views\details\admin_view.ctp:40;74
+#: \plugins\users\views\details\view.ctp:40;74
+#: \plugins\users\views\users\admin_view.ctp:20
+#: \plugins\users\views\users\view.ctp:20
+msgid "Created"
+msgstr "Data inserimento"
+
+#: \plugins\users\views\details\admin_view.ctp:45;75
+#: \plugins\users\views\details\view.ctp:45;75
+#: \plugins\users\views\users\admin_view.ctp:25
+msgid "Modified"
+msgstr "Ultima modifica"
+
+#: \plugins\users\views\details\admin_view.ctp:55
+#: \plugins\users\views\details\view.ctp:55
+msgid "Delete Detail"
+msgstr ""
+
+#: \plugins\users\views\details\admin_view.ctp:65
+#: \plugins\users\views\details\view.ctp:65
+msgid "Related Groups"
+msgstr ""
+
+#: \plugins\users\views\details\admin_view.ctp:70
+#: \plugins\users\views\details\view.ctp:70
+msgid "User Id"
+msgstr ""
+
+#: \plugins\users\views\details\admin_view.ctp:71
+#: \plugins\users\views\details\view.ctp:71
+msgid "Is Public"
+msgstr ""
+
+#: \plugins\users\views\details\admin_view.ctp:72
+#: \plugins\users\views\details\view.ctp:72
+#: \plugins\users\views\users\groups.ctp:24;58
+#: \plugins\users\views\users\search.ctp:20
+msgid "Name"
+msgstr ""
+
+#: \plugins\users\views\details\admin_view.ctp:73
+#: \plugins\users\views\details\view.ctp:73
+#: \plugins\users\views\users\groups.ctp:59
+msgid "Description"
+msgstr ""
+
+#: \plugins\users\views\details\index.ctp:27
+#: \plugins\users\views\users\change_password.ctp:27
+#: \plugins\users\views\users\openid_add.ctp:62
+#: \plugins\users\views\users\register.ctp:44;100
+#: \plugins\users\views\users\request_password_change.ctp:23
+#: \plugins\users\views\users\reset_password.ctp:14
+msgid "Submit"
+msgstr ""
+
+#: \plugins\users\views\elements\login.ctp:21
+#: \plugins\users\views\users\admin_index.ctp:21
+#: \plugins\users\views\users\login.ctp:21
+#: \plugins\users\views\users\openid_add.ctp:44;51
+#: \plugins\users\views\users\register.ctp:82;89
+#: \plugins\users\views\users\search.ctp:18
+msgid "Email"
+msgstr ""
+
+#: \plugins\users\views\elements\login.ctp:23
+#: \plugins\users\views\users\add.ctp:28
+#: \plugins\users\views\users\login.ctp:22
+#: \plugins\users\views\users\register.ctp:30
+msgid "Password"
+msgstr ""
+
+#: \plugins\users\views\elements\login.ctp:25
+#: \plugins\users\views\users\login.ctp:14
+msgid "Login"
+msgstr "Login - Entra"
+
+#: \plugins\users\views\elements\email\text\account_verification.ctp:12
+#: \views\elements\email\text\account_verification.ctp:12
+msgid "Hello %s,"
+msgstr "Salve %s,"
+
+#: \plugins\users\views\elements\email\text\account_verification.ctp:14
+#: \views\elements\email\text\account_verification.ctp:14
+msgid "to validate your account, you must visit the URL below within 24 hours"
+msgstr "per convalidare il profilo bisogna visitare l'indirizzo seguente entro 24 ore"
+
+#: \plugins\users\views\elements\email\text\password_reset_request.ctp:12
+#: \views\elements\email\text\password_reset_request.ctp:12
+msgid "A request to reset your password was sent. To change your password click the link below."
+msgstr "E' stata fatta  una richiesta di ripristino della password. Per modificare la password visita il link seguente"
+
+#: \plugins\users\views\users\add.ctp:14
+#: \plugins\users\views\users\register.ctp:13
+msgid "Account registration"
+msgstr "Registrazione utente"
+
+#: \plugins\users\views\users\add.ctp:19
+#: \plugins\users\views\users\register.ctp:21
+msgid "Please select a username that is not already in use"
+msgstr "Scegliere un nome utente non ancora in suo"
+
+#: \plugins\users\views\users\add.ctp:20
+#: \plugins\users\views\users\register.ctp:22
+msgid "Must be at least 3 characters"
+msgstr "Almeno 3 caratteri"
+
+#: \plugins\users\views\users\add.ctp:21
+#: \plugins\users\views\users\register.ctp:23
+msgid "Username must contain numbers and letters only"
+msgstr "Il nome utente deve contenere solo lettere e numeri"
+
+#: \plugins\users\views\users\add.ctp:22
+#: \plugins\users\views\users\register.ctp:24
+msgid "Please choose username"
+msgstr "Scegliere un nome utente"
+
+#: \plugins\users\views\users\add.ctp:24
+#: \plugins\users\views\users\register.ctp:26
+msgid "E-mail (used as login)"
+msgstr "E-mail (usata per l'autenticazione)"
+
+#: \plugins\users\views\users\add.ctp:25
+#: \plugins\users\views\users\register.ctp:27
+msgid "Must be a valid email address"
+msgstr "Deve essere un indirizzo email valido"
+
+#: \plugins\users\views\users\add.ctp:26
+#: \plugins\users\views\users\register.ctp:28
+msgid "An account with that email already exists"
+msgstr "Un utente con questo indirizzo email esiste già"
+
+#: \plugins\users\views\users\add.ctp:30
+#: \plugins\users\views\users\register.ctp:32
+msgid "Must be at least 5 characters long"
+msgstr "Almeno 5 caratteri"
+
+#: \plugins\users\views\users\add.ctp:32
+#: \plugins\users\views\users\register.ctp:34
+msgid "Password (confirm)"
+msgstr "Conferma password"
+
+#: \plugins\users\views\users\add.ctp:34
+#: \plugins\users\views\users\register.ctp:36
+msgid "Passwords must match"
+msgstr "Le password devono coincidere"
+
+#: \plugins\users\views\users\add.ctp:38
+#: \plugins\users\views\users\openid_add.ctp:58
+#: \plugins\users\views\users\register.ctp:40;96
+msgid "I have read and agreed to "
+msgstr "Ho letto ed accetto"
+
+#: \plugins\users\views\users\add.ctp:38
+#: \plugins\users\views\users\openid_add.ctp:58
+#: \plugins\users\views\users\register.ctp:40;96
+msgid "Terms of Service"
+msgstr "I termini d'uso"
+
+#: \plugins\users\views\users\add.ctp:39
+#: \plugins\users\views\users\openid_add.ctp:59
+#: \plugins\users\views\users\register.ctp:41;97
+msgid "You must verify you have read the Terms of Service"
+msgstr "Devi confermare di aver letto i termini d'uso"
+
+#: \plugins\users\views\users\admin_add.ctp:15
+#: \plugins\users\views\users\openid_add.ctp:14
+msgid "Add User"
+msgstr "Nuovo utente (registrazione)"
+
+#: \plugins\users\views\users\admin_edit.ctp:15
+#: \plugins\users\views\users\admin_view.ctp:34
+#: \plugins\users\views\users\edit.ctp:14
+#: \views\users\edit.ctp:14
+msgid "Edit User"
+msgstr "Modifica utente"
+
+#: \plugins\users\views\users\admin_index.ctp:13
+#: \plugins\users\views\users\index.ctp:13
+#: \views\users\index.ctp:14
+msgid "Users"
+msgstr "Utenti"
+
+#: \plugins\users\views\users\admin_index.ctp:15
+msgid "Filter"
+msgstr "Filtro"
+
+#: \plugins\users\views\users\admin_index.ctp:19
+#: \plugins\users\views\users\admin_view.ctp:15
+#: \plugins\users\views\users\openid_add.ctp:30;36
+#: \plugins\users\views\users\register.ctp:68;74
+#: \plugins\users\views\users\search.ctp:16
+#: \plugins\users\views\users\view.ctp:15
+#: \views\users\view.ctp:16
+msgid "Username"
+msgstr "Nome utente"
+
+#: \plugins\users\views\users\admin_index.ctp:22
+msgid "Search"
+msgstr "Cerca"
+
+#: \plugins\users\views\users\admin_view.ctp:35
+msgid "Delete User"
+msgstr "Elimina utente"
+
+#: \plugins\users\views\users\change_password.ctp:12
+msgid "Change your password"
+msgstr "Modifica password"
+
+#: \plugins\users\views\users\change_password.ctp:14
+msgid "Please enter your old password because of security reasons and then your new password twice."
+msgstr "Per motivi di sicurezza, inserire la vecchia password e poi quella nuova 2 volte"
+
+#: \plugins\users\views\users\change_password.ctp:19
+msgid "Old Password"
+msgstr "Vecchia password"
+
+#: \plugins\users\views\users\change_password.ctp:22
+#: \plugins\users\views\users\reset_password.ctp:9
+msgid "New Password"
+msgstr "Nuova password"
+
+#: \plugins\users\views\users\change_password.ctp:25
+#: \plugins\users\views\users\reset_password.ctp:12
+msgid "Confirm"
+msgstr "Conferma"
+
+#: \plugins\users\views\users\dashboard.ctp:13
+msgid "Welcome %s"
+msgstr "Benvenuto %s"
+
+#: \plugins\users\views\users\dashboard.ctp:24
+msgid "Home"
+msgstr ""
+
+#: \plugins\users\views\users\dashboard.ctp:26
+msgid "Your requests"
+msgstr "Le tue richieste"
+
+#: \plugins\users\views\users\dashboard.ctp:27
+msgid "Your answers"
+msgstr "Le tue risposte"
+
+#: \plugins\users\views\users\dashboard.ctp:28
+msgid "Profile"
+msgstr "Profilo"
+
+#: \plugins\users\views\users\dashboard.ctp:29
+msgid "Logout"
+msgstr "Logout - Esci"
+
+#: \plugins\users\views\users\groups.ctp:13
+msgid "My Groups"
+msgstr ""
+
+#: \plugins\users\views\users\groups.ctp:16
+msgid "Create a new group"
+msgstr ""
+
+#: \plugins\users\views\users\groups.ctp:17
+msgid "Invite a user"
+msgstr ""
+
+#: \plugins\users\views\users\groups.ctp:18
+msgid "Requests to join"
+msgstr ""
+
+#: \plugins\users\views\users\groups.ctp:21
+msgid "My own groups"
+msgstr ""
+
+#: \plugins\users\views\users\groups.ctp:25;60
+msgid "Members"
+msgstr ""
+
+#: \plugins\users\views\users\groups.ctp:45
+msgid "Invite user"
+msgstr ""
+
+#: \plugins\users\views\users\groups.ctp:46
+msgid "Manage Broadcast Scope"
+msgstr ""
+
+#: \plugins\users\views\users\groups.ctp:47
+msgid "Access"
+msgstr ""
+
+#: \plugins\users\views\users\groups.ctp:48
+msgid "Addons"
+msgstr ""
+
+#: \plugins\users\views\users\groups.ctp:55
+msgid "Groups im a member in"
+msgstr ""
+
+#: \plugins\users\views\users\groups.ctp:79
+msgid "Leave group"
+msgstr ""
+
+#: \plugins\users\views\users\login.ctp:23
+msgid "Remember Me"
+msgstr "Ricordami su questo computer"
+
+#: \plugins\users\views\users\login.ctp:33
+msgid "Forgot Password"
+msgstr "Password dimenticata"
+
+#: \plugins\users\views\users\openid_add.ctp:23
+#: \plugins\users\views\users\register.ctp:57
+msgid "Openid Identifier"
+msgstr "Identificatore OpenId"
+
+#: \plugins\users\views\users\request_password_change.ctp:12
+msgid "Forgot your password?"
+msgstr "Password dimenticata?"
+
+#: \plugins\users\views\users\request_password_change.ctp:14
+msgid "Please enter the email you used for registration and you'll get an email with further instructions."
+msgstr "Inserire l'indirizzo meail utilizzato per la registrazione, e si riceverà una email con le istruzioni"
+
+#: \plugins\users\views\users\request_password_change.ctp:22
+msgid "Your Email"
+msgstr "La tua email"
+
+#: \plugins\users\views\users\reset_password.ctp:1
+msgid "Reset your password"
+msgstr "Reimposta password"
+
+#: \plugins\users\views\users\search.ctp:12
+msgid "Search for users"
+msgstr "Cerca utenti"
+
+#~ msgid "The username must be alphanumeric"
+#~ msgstr "Nome utente deve essere alfanumenrico (solo lettere e numeri)"

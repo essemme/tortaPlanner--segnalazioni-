@@ -1,0 +1,531 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2011-11-25 19:02+0100\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: \app_controller.php:158
+msgid "Sorry, but you need to login to access this location."
+msgstr ""
+
+#: \app_controller.php:159
+msgid "Invalid e-mail / password combination.  Please try again"
+msgstr ""
+
+#: \app_controller.php:175
+msgid "Sorry, but you need to be Admin to access this location."
+msgstr ""
+
+#: \controllers\appuntamenti_controller.php:26;44
+msgid "The appuntamento has been saved"
+msgstr ""
+
+#: \controllers\appuntamenti_controller.php:29;47
+msgid "The appuntamento could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\appuntamenti_controller.php:39
+msgid "Invalid appuntamento"
+msgstr ""
+
+#: \controllers\appuntamenti_controller.php:59
+msgid "Invalid id for appuntamento"
+msgstr ""
+
+#: \controllers\appuntamenti_controller.php:63
+msgid "Appuntamento deleted"
+msgstr ""
+
+#: \controllers\appuntamenti_controller.php:66
+msgid "Appuntamento was not deleted"
+msgstr ""
+
+#: \controllers\categorie_controller.php:14;36
+msgid "Invalid categoria"
+msgstr ""
+
+#: \controllers\categorie_controller.php:24;41
+msgid "The categoria has been saved"
+msgstr ""
+
+#: \controllers\categorie_controller.php:27;44
+msgid "The categoria could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\categorie_controller.php:56
+msgid "Invalid id for categoria"
+msgstr ""
+
+#: \controllers\categorie_controller.php:60
+msgid "Categoria deleted"
+msgstr ""
+
+#: \controllers\categorie_controller.php:63
+msgid "Categoria was not deleted"
+msgstr ""
+
+#: \controllers\categorie_eventi_controller.php:27
+msgid "The categorie eventi has been saved"
+msgstr ""
+
+#: \controllers\categorie_eventi_controller.php:30
+msgid "The categorie eventi could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\categorie_eventi_controller.php:62
+msgid "Invalid id for categorie eventi"
+msgstr ""
+
+#: \controllers\categorie_eventi_controller.php:66
+msgid "Categorie eventi deleted"
+msgstr ""
+
+#: \controllers\categorie_eventi_controller.php:69
+msgid "Categorie eventi was not deleted"
+msgstr ""
+
+#: \controllers\edizioni_controller.php:26
+msgid "Invalid edizione"
+msgstr ""
+
+#: \controllers\edizioni_controller.php:92
+msgid "Invalid id for edizione"
+msgstr ""
+
+#: \controllers\edizioni_controller.php:96
+msgid "Edizione deleted"
+msgstr ""
+
+#: \controllers\edizioni_controller.php:99
+msgid "Edizione was not deleted"
+msgstr ""
+
+#: \controllers\eventi_controller.php:170;229
+msgid "Invalid evento"
+msgstr ""
+
+#: \controllers\eventi_controller.php:217;234
+msgid "The evento has been saved"
+msgstr ""
+
+#: \controllers\eventi_controller.php:220;237
+msgid "The evento could not be saved. Please, try again."
+msgstr ""
+
+#: \controllers\eventi_controller.php:261
+msgid "Invalid id for evento"
+msgstr ""
+
+#: \controllers\eventi_controller.php:265
+msgid "Evento deleted"
+msgstr ""
+
+#: \controllers\eventi_controller.php:268
+msgid "Evento was not deleted"
+msgstr ""
+
+#: \views\appuntamenti\add.ctp:3
+msgid "Add Appuntamento"
+msgstr ""
+
+#: \views\appuntamenti\add.ctp:6
+#: \views\appuntamenti\edit.ctp:7
+#: \views\appuntamenti\view.ctp:8
+#: \views\eventi\add.ctp:4
+#: \views\eventi\prossimi.ctp:5
+msgid "List Appuntamenti"
+msgstr ""
+
+#: \views\appuntamenti\add.ctp:7
+#: \views\appuntamenti\edit.ctp:8
+#: \views\appuntamenti\index.ctp:7
+#: \views\appuntamenti\view.ctp:10
+#: \views\categorie\add.ctp:4
+#: \views\categorie\edit.ctp:5
+#: \views\categorie\index.ctp:4
+#: \views\categorie\view.ctp:7
+#: \views\eventi\add.ctp:3
+#: \views\eventi\edit.ctp:5
+#: \views\eventi\view.ctp:8
+msgid "List Eventi"
+msgstr ""
+
+#: \views\appuntamenti\add.ctp:8
+#: \views\appuntamenti\edit.ctp:9
+#: \views\appuntamenti\index.ctp:8
+#: \views\appuntamenti\view.ctp:11
+#: \views\categorie\add.ctp:5
+#: \views\categorie\edit.ctp:6
+#: \views\categorie\index.ctp:5
+#: \views\categorie\view.ctp:8;30
+#: \views\eventi\index.ctp:4
+#: \views\eventi\prossimi.ctp:4
+#: \views\eventi\view.ctp:9
+msgid "New Evento"
+msgstr ""
+
+#: \views\appuntamenti\edit.ctp:3
+#: \views\appuntamenti\view.ctp:6
+msgid "Edit Appuntamento"
+msgstr ""
+
+#: \views\appuntamenti\edit.ctp:6
+#: \views\appuntamenti\index.ctp:60
+#: \views\categorie\edit.ctp:3
+#: \views\categorie\index.ctp:52
+#: \views\categorie\view.ctp:64
+#: \views\edizioni\edit.ctp:6
+#: \views\edizioni\index.ctp:108
+#: \views\edizioni\view.ctp:93
+#: \views\eventi\edit.ctp:4;25
+#: \views\eventi\index.ctp:91;137
+#: \views\eventi\view.ctp:166
+msgid "Delete"
+msgstr ""
+
+#: \views\appuntamenti\edit.ctp:6
+#: \views\appuntamenti\index.ctp:60
+#: \views\appuntamenti\view.ctp:7
+#: \views\categorie\edit.ctp:3
+#: \views\categorie\index.ctp:52
+#: \views\categorie\view.ctp:4;64
+#: \views\edizioni\edit.ctp:6
+#: \views\edizioni\index.ctp:108
+#: \views\edizioni\view.ctp:8;93
+#: \views\eventi\edit.ctp:4;25
+#: \views\eventi\index.ctp:91;137
+#: \views\eventi\view.ctp:7;166
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: \views\appuntamenti\index.ctp:3
+msgid "Appuntamenti"
+msgstr ""
+
+#: \views\appuntamenti\index.ctp:6
+#: \views\appuntamenti\view.ctp:9
+#: \views\eventi\add.ctp:5
+#: \views\eventi\prossimi.ctp:6
+#: \views\eventi\view.ctp:136
+msgid "New Appuntamento"
+msgstr ""
+
+#: \views\appuntamenti\index.ctp:16
+#: \views\categorie\index.ctp:19
+#: \views\edizioni\index.ctp:16
+#: \views\eventi\index.ctp:20
+msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
+msgstr ""
+
+#: \views\appuntamenti\index.ctp:20;76
+#: \views\categorie\index.ctp:11;61
+#: \views\edizioni\index.ctp:21;128
+#: \views\eventi\index.ctp:12;147
+msgid "previous"
+msgstr ""
+
+#: \views\appuntamenti\index.ctp:22;78
+#: \views\categorie\index.ctp:14;64
+#: \views\edizioni\index.ctp:23;130
+#: \views\eventi\index.ctp:15;150
+msgid "next"
+msgstr ""
+
+#: \views\appuntamenti\index.ctp:32
+#: \views\categorie\index.ctp:27
+#: \views\categorie\view.ctp:43
+#: \views\edizioni\index.ctp:33
+#: \views\edizioni\view.ctp:46
+#: \views\eventi\index.ctp:42
+#: \views\eventi\prossimi.ctp:61
+#: \views\eventi\view.ctp:100;147
+msgid "Actions"
+msgstr ""
+
+#: \views\appuntamenti\index.ctp:58
+#: \views\categorie\index.ctp:50
+#: \views\categorie\view.ctp:62
+#: \views\edizioni\index.ctp:106
+#: \views\eventi\index.ctp:135
+#: \views\eventi\prossimi.ctp:246
+#: \views\eventi\view.ctp:120
+msgid "View"
+msgstr ""
+
+#: \views\appuntamenti\index.ctp:59
+#: \views\categorie\index.ctp:51
+#: \views\categorie\view.ctp:63
+#: \views\eventi\index.ctp:136
+msgid "Edit"
+msgstr ""
+
+#: \views\appuntamenti\view.ctp:3
+msgid "Appuntamento"
+msgstr ""
+
+#: \views\appuntamenti\view.ctp:7
+msgid "Delete Appuntamento"
+msgstr ""
+
+#: \views\appuntamenti\view.ctp:16
+#: \views\categorie\view.ctp:13;37
+#: \views\eventi\view.ctp:52;98;143
+msgid "Id"
+msgstr ""
+
+#: \views\appuntamenti\view.ctp:21
+#: \views\eventi\view.ctp:3
+msgid "Evento"
+msgstr ""
+
+#: \views\appuntamenti\view.ctp:26
+#: \views\eventi\view.ctp:145
+msgid "Cosa"
+msgstr ""
+
+#: \views\appuntamenti\view.ctp:31
+#: \views\eventi\view.ctp:146
+msgid "Data Inizio"
+msgstr ""
+
+#: \views\appuntamenti\view.ctp:36
+msgid "Ora Inizio"
+msgstr ""
+
+#: \views\categorie\add.ctp:1
+msgid "Add Categoria"
+msgstr ""
+
+#: \views\categorie\add.ctp:3
+#: \views\categorie\edit.ctp:4
+#: \views\categorie\view.ctp:5
+#: \views\eventi\add.ctp:6
+#: \views\eventi\edit.ctp:6
+#: \views\eventi\index.ctp:5
+#: \views\eventi\prossimi.ctp:7
+#: \views\eventi\view.ctp:10
+msgid "List Categorie"
+msgstr ""
+
+#: \views\categorie\add.ctp:97
+#: \views\categorie\edit.ctp:103
+#: \views\eventi\add.ctp:35
+#: \views\eventi\edit.ctp:35
+msgid "Submit"
+msgstr ""
+
+#: \views\categorie\edit.ctp:1
+#: \views\categorie\view.ctp:3
+msgid "Edit Categoria"
+msgstr ""
+
+#: \views\categorie\index.ctp:1
+msgid "Categorie"
+msgstr ""
+
+#: \views\categorie\index.ctp:3
+#: \views\categorie\view.ctp:6
+#: \views\eventi\add.ctp:7
+#: \views\eventi\edit.ctp:7
+#: \views\eventi\index.ctp:6
+#: \views\eventi\prossimi.ctp:8
+#: \views\eventi\view.ctp:11
+msgid "New Categoria"
+msgstr ""
+
+#: \views\categorie\view.ctp:1;18
+#: \views\eventi\view.ctp:99
+msgid "Categoria"
+msgstr ""
+
+#: \views\categorie\view.ctp:4
+msgid "Delete Categoria"
+msgstr ""
+
+#: \views\categorie\view.ctp:28
+msgid "Related Eventi"
+msgstr ""
+
+#: \views\categorie\view.ctp:38
+#: \views\eventi\view.ctp:57
+msgid "Che Cosa"
+msgstr ""
+
+#: \views\categorie\view.ctp:39
+#: \views\eventi\view.ctp:65
+msgid "Note"
+msgstr ""
+
+#: \views\categorie\view.ctp:40
+#: \views\eventi\view.ctp:70
+msgid "Segnalato Da"
+msgstr ""
+
+#: \views\categorie\view.ctp:41
+#: \views\eventi\view.ctp:76
+msgid "Created"
+msgstr ""
+
+#: \views\categorie\view.ctp:42
+#: \views\eventi\view.ctp:82
+msgid "Modified"
+msgstr ""
+
+#: \views\edizioni\add.ctp:3
+msgid "Add Edizione"
+msgstr ""
+
+#: \views\edizioni\add.ctp:6
+#: \views\edizioni\edit.ctp:7
+#: \views\edizioni\view.ctp:9
+msgid "List Edizioni"
+msgstr ""
+
+#: \views\edizioni\add.ctp:7
+#: \views\edizioni\edit.ctp:8
+#: \views\edizioni\index.ctp:7
+#: \views\edizioni\view.ctp:11
+msgid "List Categorie Eventi"
+msgstr ""
+
+#: \views\edizioni\add.ctp:8
+#: \views\edizioni\edit.ctp:9
+#: \views\edizioni\index.ctp:8
+#: \views\edizioni\view.ctp:12
+msgid "New Categorie Eventi"
+msgstr ""
+
+#: \views\edizioni\edit.ctp:3
+#: \views\edizioni\view.ctp:7
+msgid "Edit Edizione"
+msgstr ""
+
+#: \views\edizioni\index.ctp:3
+msgid "Edizioni"
+msgstr ""
+
+#: \views\edizioni\index.ctp:6
+#: \views\edizioni\view.ctp:10
+msgid "New Edizione"
+msgstr ""
+
+#: \views\edizioni\view.ctp:4
+msgid "Edizione"
+msgstr ""
+
+#: \views\edizioni\view.ctp:8
+msgid "Delete Edizione"
+msgstr ""
+
+#: \views\errors\error404.ctp:3
+msgid "File not Found"
+msgstr ""
+
+#: \views\errors\maintenance.ctp:1
+msgid "Down for a while"
+msgstr ""
+
+#: \views\errors\maintenance.ctp:3
+msgid "Maintenance in progress"
+msgstr ""
+
+#: \views\eventi\add.ctp:1
+msgid "Add Evento"
+msgstr ""
+
+#: \views\eventi\edit.ctp:2
+#: \views\eventi\view.ctp:6
+msgid "Edit Evento"
+msgstr ""
+
+#: \views\eventi\index.ctp:2
+#: \views\eventi\prossimi.ctp:2
+msgid "Eventi"
+msgstr ""
+
+#: \views\eventi\view.ctp:7
+msgid "Delete Evento"
+msgstr ""
+
+#: \views\eventi\view.ctp:91
+msgid "Related Categorie"
+msgstr ""
+
+#: \views\eventi\view.ctp:134
+msgid "Related Appuntamenti"
+msgstr ""
+
+#: \views\pages\home.ctp:16
+msgid "Your tmp directory is writable."
+msgstr ""
+
+#: \views\pages\home.ctp:20
+msgid "Your tmp directory is NOT writable."
+msgstr ""
+
+#: \views\pages\home.ctp:26
+msgid "URL rewriting is not properly configured on your server. "
+msgstr ""
+
+#: \views\pages\home.ctp:30
+msgid "Help me configure it"
+msgstr ""
+
+#: \views\pages\home.ctp:35
+msgid "I don't / can't use URL rewriting"
+msgstr ""
+
+#: \views\pages\home.ctp:45
+msgid "The %s is being used for caching. To change the config edit APP/config/core.php "
+msgstr ""
+
+#: \views\pages\home.ctp:49
+msgid "Your cache is NOT working. Please check the settings in APP/config/core.php"
+msgstr ""
+
+#: \views\pages\home.ctp:59
+msgid "Your database configuration file is present."
+msgstr ""
+
+#: \views\pages\home.ctp:64
+msgid "Your database configuration file is NOT present."
+msgstr ""
+
+#: \views\pages\home.ctp:66
+msgid "Rename config/database.php.default to config/database.php"
+msgstr ""
+
+#: \views\pages\home.ctp:83
+msgid "Cake is able to connect to the database."
+msgstr ""
+
+#: \views\pages\home.ctp:87
+msgid "Cake is NOT able to connect to the database."
+msgstr ""
+
+#: \views\pages\home.ctp:93
+msgid "Editing this Page"
+msgstr ""
+
+#: \views\pages\home.ctp:96
+msgid "To change the content of this page, edit: %s\n\t\tTo change its layout, edit: %s\n\t\tYou can also add some CSS styles for your pages at: %s"
+msgstr ""
+
+#: \views\themed\admin\layouts\default.ctp:7
+msgid "Admin"
+msgstr ""
+
+#: \webroot\test.php:88
+msgid "Debug setting does not allow access to this url."
+msgstr ""
+
