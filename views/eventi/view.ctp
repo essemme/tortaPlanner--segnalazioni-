@@ -134,7 +134,7 @@
 <?php endif; ?>
      <article class="eventi form">
          <h3>Aggiungi nuova data</h3>
-                                <?php echo $this->Form->create('Appuntamento');?>
+                                <?php echo $this->Form->create('Appuntamento', array('url' => '/appuntamenti/add'));?>
                                 <?php
                                         echo $this->Form->input('evento_id', array('type' => 'hidden', 'value' => $evento['Evento']['id']));
                                         echo $this->Form->input('cosa');

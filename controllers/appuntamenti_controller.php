@@ -22,18 +22,18 @@ class AppuntamentiController extends AppController {
 	function add() {
 		if (!empty($this->data)) {
 			$this->Appuntamento->create();
-                        debug($this->data);
+                        //debug($this->data);
+                        $evento_id = $this->data['Appuntamento']['evento_id'];
 			if ($this->Appuntamento->save($this->data)) {
-                            $evento_id = $this->data['Appuntamento']['evento_id'];
-				$this->Session->setFlash(__('The appuntamento has been saved', true));
-                                $referer_url = Router::parse($this->referer());
-                                if($referer_url['controller'] == 'eventi' && $referer_url['action'] == 'index') {
-                                    $this->redirect($this->referer ());                                    
-                                }
-                                else {
-                                    $this->redirect('/eventi/view/' .$evento_id);
-                                }
-				
+                            $this->Session->setFlash(__('The appuntamento has been saved', true));
+                            $referer_url = Router::parse($this->referer());
+                            if($referer_url['controller'] == 'eventi' && $referer_url['action'] == 'index') {
+                                $this->redirect($this->referer ());                                    
+                            }
+                            else {
+                                $this->redirect('/eventi/view/' .$evento_id);
+                            }
+
 			} else {
 				$this->Session->setFlash(__('The appuntamento could not be saved. Please, try again.', true));
                                 $this->redirect($this->referer('/eventi'));
