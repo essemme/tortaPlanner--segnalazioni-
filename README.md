@@ -1,8 +1,5 @@
 # TortaPlanner ("Segnalazioni")#
 Just a simple planner; in italian.
-See 
-http://stefanomanfredini.info/tag/cakephp/
-for info.
 
 It was a 2 days work, mainly for testing purpose.
 I was trying BakingPlate with cakephp 1.3, and we needed a simple app for internal use.
@@ -26,19 +23,31 @@ I'm not including the plugins, there is no reason to make another copy.. it's ju
 https://github.com/ProLoser/BakingPlate/tree/cake1.3
 
 (required plugins:
+
 *analogue 
+
 *baking_plate
+
 *batch
+
 *debug_kit (optional, but warmly recommended for development)
+
 *lazy model
+
 *linkable
 
 may use in future versions (if ever):
+
 *search
+
 *searchable
+
 *url_cache
+
 *users (cakeDc)
+
 *utils
+
 *webmaster_tools
 )
 
@@ -55,3 +64,8 @@ You will not be making money out of it.
 Let's say MIT, form my code.
 This app is just a proof of concept, showing how easy and fast cakephp programming can be - thanks to the cakephp team end the great community.
 Som, just pay due respect to the true geniuses behind cakepphp, backingPlate and the plugins
+
+
+See 
+http://stefanomanfredini.info/2012/03/tortaplanner-segnalazioni-una-semplice-app-con-cakephp/
+for info.
