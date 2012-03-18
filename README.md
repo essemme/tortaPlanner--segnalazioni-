@@ -67,11 +67,17 @@ So, just pay due respect to the true geniuses behind cakepphp, backingPlate and 
 
 ## ToDo.. maybe ##
 -Authentication / authorization / user management
+
 -email notifications; 
+
 -calendar (month/week) view; 
+
 -more ajax / ui tuninig; 
+
 -search feature (there is only a field by field filter yet); 
+
 -webservices (mainly iCal import / export)
+
 
 See 
 http://stefanomanfredini.info/2012/03/tortaplanner-segnalazioni-una-semplice-app-con-cakephp/
