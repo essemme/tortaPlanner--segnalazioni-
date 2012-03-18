@@ -63,8 +63,15 @@ I may add a simple authentication, or the cakeDC users plugin - but for now, I'l
 You will not be making money out of it. 
 Let's say MIT, form my code.
 This app is just a proof of concept, showing how easy and fast cakephp programming can be - thanks to the cakephp team end the great community.
-Som, just pay due respect to the true geniuses behind cakepphp, backingPlate and the plugins
+So, just pay due respect to the true geniuses behind cakepphp, backingPlate and the plugins
 
+## ToDo.. maybe ##
+-Authentication / authorization / user management
+-email notifications; 
+-calendar (month/week) view; 
+-more ajax / ui tuninig; 
+-search feature (there is only a field by field filter yet); 
+-webservices (mainly iCal import / export)
 
 See 
 http://stefanomanfredini.info/2012/03/tortaplanner-segnalazioni-una-semplice-app-con-cakephp/
