@@ -118,7 +118,7 @@
                                         'icn_trash.png', 
                                         array('alt' => 'Rimuovi legame', 'title' => 'Rimuovi legame')
                                         ),
-                                        array('controller' => 'categorie_eventi', 'action' => 'delete', $categoria['CategorieEventi']['id']  ),
+                                        array('controller' => 'categorie_eventi', 'action' => 'delete', $categoria['CategorieEventi']['id'], $evento['Appuntamento']['id']),
                                         array('escape' => false),
                                         'Sicuro di voler togliere la relazione tra l\'evento e la categoria?'
                                     ) 
@@ -224,6 +224,9 @@
                          echo '<div style="float:left; width:150px;">';
                          echo $this->Form->input('categoria_id', array('type' => 'select','label' => false, 'div' => false, 'options' => $categorie_filtrate, 'style' => 'margin-top:6px;'));                                     
                          echo $this->Form->input('evento_id', array('type' => 'hidden', 'value' => $evento['Evento']['id'] ));
+                         
+                         echo $this->Form->input('appuntamento_id', array('type' => 'hidden', 'value' => $evento['Appuntamento']['id']));
+                                     
                          echo '</div>';
                          echo $this->Form->end('Aggiungi legame');
                          ?>

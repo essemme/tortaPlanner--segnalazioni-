@@ -23,10 +23,11 @@ class CategorieEventiController extends AppController {
 	function add() {
 		if (!empty($this->data)) {
 			$this->CategorieEventi->create();
+                        $appuntamento_id = $this->data['CategorieEventi']['appuntamento_id'];
 			if ($this->CategorieEventi->save($this->data)) {
                             $evento_id = $this->data['CategorieEventi']['evento_id'];
 				$this->Session->setFlash(__('The categorie eventi has been saved', true));
-				$this->redirect('/eventi/view/'.$evento_id);
+				$this->redirect($this->referer().'#'.$appuntamento_id);
 			} else {
 				$this->Session->setFlash(__('The categorie eventi could not be saved. Please, try again.', true));
 			}
@@ -58,16 +59,16 @@ class CategorieEventiController extends AppController {
 //		$this->set(compact('categories', 'eventis'));
 //	}
 
-	function delete($id = null) {
+	function delete($id = null, $appuntamento_id = null) {
 		if (!$id) {
 			$this->Session->setFlash(__('Invalid id for categorie eventi', true));
 			$this->redirect($this->referer());
 		}
 		if ($this->CategorieEventi->delete($id)) {
 			$this->Session->setFlash(__('Categorie eventi deleted', true));
-			$this->redirect('/eventi/view/'.$evento_id);
+			$this->redirect($this->referer().'#'.$appuntamento_id);
 		}
 		$this->Session->setFlash(__('Categorie eventi was not deleted', true));
-		$this->redirect($this->referer());
+		$this->redirect($this->referer().'#'.$appuntamento_id);
 	}
 }
